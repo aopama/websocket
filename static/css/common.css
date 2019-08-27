@@ -1,0 +1,80 @@
+html{
+background:#f0f0f0;
+height:100%;
+}
+#app{height:100%;background:#fff;}
+.router-fade-enter-active, .router-fade-leave-active {
+transition: opacity .2s;
+}
+.router-fade-enter, .router-fade-leave-active {
+opacity: 0;
+}
+.z{float:left;}
+.y{float:right;}
+.clear{clear:both;}
+/* 清除浮动 */
+.cl:before, .cl:after{ content:" "; display: table }
+.cl:after{ clear: both }
+.clb{clear:both;}
+.cl { *zoom: 1 }
+/*灰色边框*/
+.bt_top{border-top:1px solid #e4e4e4;}
+/*淡入淡出 放大缩小*/
+.fade-enter-active{transition: opacity .2s;}
+.fade-leave-active {transition: opacity .0s;}
+	.fade-enter,.fade-leave-to {opacity: 0;}
+	.fade-enter-active{animation:fade-in .2s;}
+	.fade-leave-active {animation: fade-in .1s reverse;}
+	@keyframes fade-in {
+	0% {
+	    transform: scale(0);
+	  }
+	  100% {
+	    transform: scale(1);
+	  }
+	}
+/*旋转45度*/
+.rotate45{
+    transform:rotate(45deg);
+    transition: all .2s;
+}
+/*点赞效果*/
+.love{animation: fade-in .5s;}
+.loves{animation: fade-ins .5s;}
+@keyframes fade-in {
+0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes fade-ins {
+0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+body::-webkit-scrollbar{display:none}
+.btn{background:#3897f0;width:100%;outline: none;border:none;text-align: center;color:#fff;line-height:1.2rem;height:1.2rem;border-radius:0.1rem;opacity:0.7;font-size:0.4rem;letter-spacing:1px;}
+.btn.on{opacity:1;transition:all .3s;}
+
+
+
+
+
+
+
+
+
+
+
