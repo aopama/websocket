@@ -49,7 +49,7 @@ npm run prod
 
 ## 技术交流
 
-<img src="https://s3.qiufengh.com/webchat/webchat-group.jpeg?imageView2/2/w/360" width="300" />
+QQ :339840649
 
 ## 技术栈
 
